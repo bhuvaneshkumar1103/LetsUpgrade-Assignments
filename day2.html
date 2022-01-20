@@ -1,0 +1,59 @@
+<! ---Create a new course Enrollment form for students
+
+Take input: Student's name, d.o.b, Gender, address, city, state, Mobile Number, Course want to 
+
+pursue from Course List, Additional Comments on expectation from the course, Link to terms and 
+
+conditions, submit, reset. --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration</title>
+</head>
+<body style="background-color:aqua;">
+    <h1 style="text-align: center; color:darkorange"> New Course Enrollment Form </h1>
+    <h3><marquee direction = "left" style="color:rgb(119, 0, 255); " style="font-family:Arial, Helvetica, sans-serif"> &#9996; Today the Learner is the Leader in Future  &#9996; </marquee></strong></h3>
+    <form style="text-align: center;">
+        <label for="name">Student Name: </label>
+        <input type="text" maxlength="20" placeholder="Enter your name" id="sname" name="sname" style="width: 2in;" required><br><br>
+        <label for="dob">Date of Birth: </label>
+        <input type="date" id="dob" name="dob" placeholder="dd/mm/yyyy" style="width: 2in;" required><br><br>
+        <label for="gender">Gender: </label>
+        <select name="gender" id="gender" style="width: 2in;"  required>
+            <option value="null"></option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+          </select><br><br>
+        <label for="address" >Living Address: </label>
+        <textarea id="address" rows="3" cols="50" placeholder="Enter Your address here"  required></textarea><br><br>
+        <label for="city">City Name: </label>
+        <input type="text" placeholder="Enter City" id="city" name="city" style="width: 2in;"  required><br><br>
+        <label for="state">State Name: </label>
+        <input type="text" placeholder="Enter State" id="state" name="state" style="width: 2in;"  required><br><br>
+        <label for="moblie number">Mobile Number: </label>
+        <input type="text" placeholder="Enter number" id="moblie number" name="mobile number" style="width: 2in;"  required><br><br>
+        <label for="course">Course: </label>
+        <select name="course" id="course" style="width: 2in;" >
+            <option value="null"></option>
+            <option value="Html and CSS">Html and CSS</option>
+            <option value="Machine Learning">Machine Learning</option>
+            <option value="Block Chain">Block Chain</option>
+            <option value="Artificial Intelligence">Artificial Intelligence</option>
+          </select><br><br>
+        <label for="comments">Comments: </label>  
+        <textarea id="comments" rows="3" cols="50" placeholder="Additional Comments on expectation from the course"  required></textarea><br><br>
+        <input type="checkbox" id="allow" name="allow" required>
+        <label for="allow">I agree to the Terms and conditions </label><br><br>
+        <input type="submit" value="Register"style="background-color: lightgreen;" >
+        <input type="reset" style="background-color: royalblue;"  >
+         
+
+
+    </form>
+
+</body>
+</html>
