@@ -1,0 +1,152 @@
+<!--- Create a restaurant menu and represent it in a table
+
+Add Dish name, type, price, image, rating(if any)   --->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Trade Winds' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Merienda One' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Mitr' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Sonsie One' rel='stylesheet'>
+        <style>
+            .checked{
+              color: orange;
+            }
+            .unchecked{
+              color: aliceblue;
+            }
+            p{
+              text-align: center;
+              text-rendering: geometricPrecision;
+              color: rgb(20, 220, 153);
+              font-size: 20px;
+            }
+            body {
+              background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuAiqW0PxKdPFtrNJZgUssxkBA-AmDFeKCyw&usqp=CAU');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+              font-family: 'Trade Winds';font-size: 15px;
+            }
+            table {
+                font-family: Merienda One;font-size: 16px;
+                border-collapse: collapse;
+                width: 100%;
+            }
+    
+            table,td, th {
+                border: 3px solid #2539f0;
+                text-align: center;
+                padding: 8px;
+            }
+            img{
+              width: 3cm;
+              height: 2cm;
+            }
+    
+            tr:nth-child(even) {
+                background-color: #7ed1eb;
+            }
+            tr:nth-child(odd){
+              color: springgreen;
+            }
+            ol{
+                font-family: 'Mitr';
+            }
+            a{
+                font-family: 'Sonsie One';
+            }
+            h1{
+                text-align: center;
+                color:yellow;
+            }
+        </style>
+</head>
+<body>
+    <h1>GOPAL BIRIYANI PALACE</h1>
+    <h3><marquee direction = "left" style="color:rgb(157, 255, 0); " style="font-family:Arial, Helvetica, sans-serif"> &#9996; Welcome to Gopal Biriyani Palace  &#9996; </marquee></strong></h3>
+    <table  style="border: 3px solid;"  ><strong>
+        <tr style="color:rgb(255, 0, 0); background-color:yellowgreen  " >
+            <th>Dish Name</th>
+            <th>Type</th>
+            <th>Price</th>
+            <th>Image</th>
+            <th>Rating</th>
+        </strong>
+          </tr>
+          <tr style="color:rgb(119, 0, 255); ">
+            <td>Chicken Biriyani</td>
+            <td>1 </td>
+            <td>150</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThaAVQi0hsKGHJAtWjC0LQF38Q4wAX5ZWq5A&usqp=CAU"></td>
+            <td><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star unchecked"></span></td>
+          </tr>
+          <tr >
+            <td>Chicken Fried Rice</td>
+            <td>1</td>
+            <td>120</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWVEbYajGmHHmSwNC-uFAPCSto4cTc_GaxjQ&usqp=CAU"></td>
+            <td><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star unchecked"></span></td>
+          </tr>
+          <tr style="color:rgb(119, 0, 255); ">
+            <td>Hyderabed Mutton Biriyani</td>
+            <td>1/2</td>
+            <td>250</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_gxajWADgQS-aRNZv9kh86dUKqWFtpMq0Qg&usqp=CAU"></td>
+            <td><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span></td>
+          </tr>
+          <tr >
+            <td>Grilled Chicken</td>
+            <td>Full</td>
+            <td>450</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa37LyjGGcdTmhD9vgFaZJGx94IkwvIxe1kA&usqp=CAU"></td>
+            <td><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span></td>
+          </tr>
+          <tr style="color:rgb(119, 0, 255); ">
+            <td>Shawarma Roll</td>
+            <td>1</td>
+            <td>80</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXEsanOiir7UBn8D4Ti-Mn--Im8mw0Phodag&usqp=CAU"></td>
+            <td><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star unchecked"></span></td>
+          </tr>
+          <tr >
+            <td>Chicken 65</td>
+            <td>100 gm</td>
+            <td>60</td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE-Waxc7cr-n_eCbPY5K_RajtpGVr7h1KEWQ&usqp=CAU"></td>
+            <td><span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star unchecked"></span></td>
+          </tr>                             
+    </table>
+    <p><strong>"People who love to eat are always the best people."</strong></p>
+
+</body>
+</html>
