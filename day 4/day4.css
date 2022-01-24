@@ -1,0 +1,48 @@
+body {
+    background-image: radial-gradient(circle, red, yellow, green);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    font-family: 'Trade Winds';font-size: 18px;
+  }
+  form {
+      display: block;
+      margin-top: 0em;
+      padding: 8px;
+      font-family: 'Mitr';
+  }
+  ol{
+      font-family: 'Merienda One'; 
+  }
+  a{
+      font-family: 'Sonsie One';
+  }
+  #card{
+      
+      width: 50%;
+  }
+  #header{
+      background-color:blue;
+      color:hotpink;
+  }
+  .w3-container{
+      background-color: rgb(245, 248, 215);
+  }
+  #footer{
+      text-align: left;
+      
+  }
+  .w3-button{
+      height:fit-content;
+      text-align:start;
+      width:3cm;
+  }
+#form{
+    color:rgb(255, 0, 255);
+}
+#button{
+    color:red;
+    border:16px solid red;
+}
+
+
