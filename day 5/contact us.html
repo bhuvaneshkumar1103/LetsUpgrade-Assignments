@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Mitr' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Trade Winds' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Merienda One' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Sonsie One' rel='stylesheet'>    
+    <link rel="stylesheet" href="./day5.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Contact Us</title>
+    <style>
+        body {
+            background-image: linear-gradient(lightblue 60%,lightpink);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+            
+          }
+          form {
+              display: block;
+              margin-top: 0em;
+              padding: 8px;
+              
+          }
+          a{
+              font-family: 'Sonsie One';
+          }
+          #card{
+              
+              width: 50%;
+          }
+          #header{
+              background-color:blue;
+              color:hotpink;
+          }
+          .w3-container{
+              background-color: rgb(245, 248, 215);
+          }
+          #footer{
+              text-align: left;
+              
+          }
+          .w3-button{
+              height:fit-content;
+              text-align:start;
+              width:3cm;
+              font-family: Arial, Helvetica, sans-serif;
+          }
+        #form{
+            color:rgb(255, 0, 255);
+        }
+        #button{
+            color:red;
+            border:16px solid red;
+        }        
+    </style>
+</head>
+<body>
+    <div class="w3-bar w3-border w3-card-4 w3-black" style="font-family: 'Times New Roman', Times, serif;">
+        <img src="./logo1.png" id="img" class="w3-bar-item w3-display-topright">
+        <a href="./Home page.html" class="w3-bar-item w3-button" >Home</a>
+        <a href="./Product page.html" class="w3-bar-item w3-button">Our Product</a>
+        <a href="#" class="w3-bar-item w3-button w3-green">For Contact</a>
+        <a href="./about us.html" class="w3-bar-item w3-button ">About Us</a>
+    </div>
+    <br>
+    <br>
+    <div class="w3-display-middle w3-card-4 " id="contactcard" style="margin-top: 1cm;">
+        <header class="w3-container w3-blue" id="header" >
+            <h1 style="font-family: Merienda One;"><strong>Contact Us</strong> </h1>
+        </header>
+        <div class="w3-container">
+            <form id="form"><em>
+                <label for="fname">Name:</label>
+                <input type="text" id="fname" name="fname" required="Username"><br><br>
+                <label for="lname">E - mail:</label>
+                <input type="text" id="lname" name="lname" required><br><br>
+                <label for="phone">Phone No:</label>
+                <input type="integer" id="phone" name="phone" required ><br><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female" >
+                <label for="female">Female</label><br>
+                <input type="radio" id="other" name="gender" value="other">
+                <label for="other">Other</label><br><br>
+                <label for="Enquiry" id="enquiry"> Enquiry:</label>
+                <textarea id="enquiry" rows="5" cols="50" required></textarea><br><br><br>
+                <div class="w3-button  w3-hover-border-yellow w3-round-xxlarge w3-hover-shadow w3-hover-green " id="button" style="border:6px solid red">
+                    <strong>Submit</strong>
+                </div>
+            </em>
+            </form>
+        </div>
+        <footer class="w3-container w3-blue" id="footer">
+            <p style="font-family: Mitr; color:yellow"><b>Always begin with: 'So that I can better serve you, do you mind if I ask a few questions?</b></p>
+            
+        </footer>
+    </div>
+</body>
+</html>
